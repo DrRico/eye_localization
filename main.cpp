@@ -84,8 +84,6 @@ int main(int argc, const char** argv)
 	return 0;
 }
 
-
-
 void findEyes(cv::Mat frame_gray, cv::Rect face) 
 {
 	cv::Mat faceROI = frame_gray(face);
